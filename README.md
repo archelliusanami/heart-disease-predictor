@@ -82,7 +82,7 @@ To build a **REST API** that predicts whether a patient is likely to have heart 
 ## 🧪 API Usage
 
 ### **Start the API locally**
-
+build the docker image from docker file then run 
 
 uvicorn heart_app:app --reload
 
