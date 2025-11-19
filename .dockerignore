@@ -1,0 +1,35 @@
+# Ignore BIG raw sequencing folders
+rawReads/
+trimmedReads/
+rawQC/
+trimmedQC/
+starAligned/
+
+# Ignore datasets
+*.csv
+*.xlsx
+archive/
+logs/
+
+# Ignore notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore training files
+model_training.py
+cardivascular disease model_training.py
+cardivascular disease model_training.ipynb
+mtb_pellen.ipynb
+analysis.yml
+snakefile
+snake.yml
+ena-file-download-selected-files-20251108-0841.sh
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual envs
+env/
+venv/
+.venv/
